@@ -15,7 +15,7 @@ var doctor = new Doctor
 	Hospital = "The Dentist Office"
 };
 
-var people = new List<Person>()
+var people = new List\<Person\>()
 {
 	lawyer,
 	doctor
