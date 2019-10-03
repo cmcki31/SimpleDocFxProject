@@ -7,8 +7,7 @@ void Main()
 		FirstName = "John",
 		LastName = "Mason",
 		Practice = "Criminal"
-	};
-	
+	};	
 	
 	var doctor = new Doctor
 	{
