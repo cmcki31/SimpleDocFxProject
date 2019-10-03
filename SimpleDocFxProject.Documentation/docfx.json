@@ -4,9 +4,14 @@
       "src": [
         {
           "files": [
-            "**.csproj"
+            "src/**.csproj"
           ],
-          "src": "C:\\Users\\cmcki\\OneDrive\\Chris Docs\\Documents\\Projects\\SimpleDocFxProject\\SimpleDocFxProject.Documentation"
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "_site/**"
+          ],
+          "cwd": ".."
         }
       ],
       "dest": "api",

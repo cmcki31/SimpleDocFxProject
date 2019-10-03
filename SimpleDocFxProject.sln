@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDocFxProject.Documentation", "SimpleDocFxProject.Documentation\SimpleDocFxProject.Documentation.csproj", "{A74D1082-3A4F-4956-8852-7F9B0C516537}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{231BFED6-5016-4B19-8D22-37970E8DEB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDocFxProject.People", "src\SimpleDocFxProject.People\SimpleDocFxProject.People.csproj", "{1A6578E5-A047-4E7B-ABD5-37AFA8E62FD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{A74D1082-3A4F-4956-8852-7F9B0C516537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74D1082-3A4F-4956-8852-7F9B0C516537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74D1082-3A4F-4956-8852-7F9B0C516537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6578E5-A047-4E7B-ABD5-37AFA8E62FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6578E5-A047-4E7B-ABD5-37AFA8E62FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6578E5-A047-4E7B-ABD5-37AFA8E62FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6578E5-A047-4E7B-ABD5-37AFA8E62FD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A6578E5-A047-4E7B-ABD5-37AFA8E62FD5} = {231BFED6-5016-4B19-8D22-37970E8DEB31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96AA2DC3-0D11-4407-8F39-26A6046EB6F3}
